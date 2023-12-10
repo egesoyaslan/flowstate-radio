@@ -13,8 +13,25 @@ body {
     background-color: #111a25;
     display: flex;
     align-items: center;
-    font-size: 16px;
-    padding: 0 1.5em;
+    padding: 1em 3em 1em 3em;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 3em;
+}
+
+li {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bolder;
 }
 
 .main {
@@ -48,4 +65,9 @@ img {
     width: 50px;
     color: #F2F5F7;
     line-height: 70px;
+}
+
+a {
+    color: #F2F5F7;
+    text-decoration: none;
 }
