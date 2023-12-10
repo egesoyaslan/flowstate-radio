@@ -87,3 +87,22 @@ a {
     font-weight: lighter;
     font-size: 14px;
 }
+
+.flow-main {
+    flex: 1;
+    padding: 2em 3em;
+}
+
+.flow-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    color: #F2F5F7;
+    margin-bottom: 1em;
+}
+
+.flow-text {
+    color: #F2F5F7;
+    font-weight: bold;
+    text-align: center;
+}
