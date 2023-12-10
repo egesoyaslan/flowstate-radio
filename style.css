@@ -1,19 +1,19 @@
 body {
     background-color: #0a0f14;
     font-family: 'Wotfard', sans-serif;
-    color: #F2F5F7;
     display: flex;
     flex-direction: column;
     height: 100vh;
     margin: 0;
     overflow: hidden;
+    justify-content: space-between;
 }
 
 .header {
     background-color: #111a25;
     display: flex;
     align-items: center;
-    padding: 1em 3em 1em 3em;
+    padding: 1em 3em;
     justify-content: space-between;
 }
 
@@ -24,14 +24,16 @@ ul {
     gap: 3em;
 }
 
-li {
+li, .nav {
     font-weight: bold;
     font-size: 20px;
+    color: #F2F5F7;
 }
 
 .title {
     font-size: 32px;
     font-weight: bolder;
+    color: #F2F5F7;
 }
 
 .main {
@@ -70,4 +72,18 @@ img {
 a {
     color: #F2F5F7;
     text-decoration: none;
+}
+
+.footer {
+    background-color: #111a25;
+    display: flex;
+    align-items: center;
+    padding: 1em 3em 1em 3em;
+    justify-content: center;
+}
+
+.cr {
+    color: #F2F5F7;
+    font-weight: lighter;
+    font-size: 14px;
 }
