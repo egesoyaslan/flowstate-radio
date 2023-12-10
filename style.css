@@ -5,8 +5,9 @@ body {
     flex-direction: column;
     height: 100vh;
     margin: 0;
-    overflow: hidden;
+    overflow: auto;
     justify-content: space-between;
+    color: #F2F5F7;
 }
 
 .header {
@@ -27,13 +28,11 @@ ul {
 li, .nav {
     font-weight: bold;
     font-size: 20px;
-    color: #F2F5F7;
 }
 
 .title {
     font-size: 32px;
     font-weight: bolder;
-    color: #F2F5F7;
 }
 
 .main {
@@ -65,13 +64,12 @@ img {
     font-weight: 1000;
     font-size: 50px;
     width: 50px;
-    color: #F2F5F7;
     line-height: 70px;
 }
 
 a {
-    color: #F2F5F7;
     text-decoration: none;
+    color: #F2F5F7;
 }
 
 .footer {
@@ -83,26 +81,36 @@ a {
 }
 
 .cr {
-    color: #F2F5F7;
     font-weight: lighter;
     font-size: 14px;
 }
 
 .flow-main {
     flex: 1;
-    padding: 2em 3em;
+    padding: 2em 7em;
 }
 
 .flow-title {
-    text-align: center;
-    font-size: 32px;
+    font-size: 40px;
     font-weight: bolder;
-    color: #F2F5F7;
     margin-bottom: 1em;
 }
 
 .flow-text {
-    color: #F2F5F7;
-    font-weight: bold;
-    text-align: center;
+    font-weight: 500;
+    margin-bottom: 3em;
+}
+
+.subtitle {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 0.5em;
+}
+
+#fst {
+    margin-bottom: 0.5em;
+}
+
+#tsf {
+    margin-bottom: 4em;
 }
